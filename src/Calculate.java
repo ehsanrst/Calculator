@@ -29,11 +29,15 @@ public class Calculate {
 		return eNum + eNum2;
 	}
 
+	public Integer multiplication() {
+		return eNum * eNum2;
+	}
+
 	public Integer subtraction() {
 		return eNum - eNum2;
 	}
-	
-public Integer division() {
+
+	public Integer division() {
 		Integer eNum3 = 0;
 		if (eNum2 == 0) {
 			System.out.println("Division is infinity");
@@ -42,10 +46,6 @@ public Integer division() {
 			eNum3 = eNum / eNum2;
 		}
 		return eNum3;
-	}
-
-	public Integer multiplication() {
-		return eNum * eNum2;
 	}
 
 	public Integer remaining() {
