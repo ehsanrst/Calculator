@@ -6,7 +6,7 @@ public class Prime {
 
 		int a = 0;
 		int b = 1;
-		double r = 0;
+		Integer r = 0;
 		Scanner scan = new Scanner(System.in);
 
 		System.out.println("Enter an integer number:");

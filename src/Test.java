@@ -4,8 +4,8 @@ public class Test { //add menu
 
 	public static void main(String[] args) {
 
-		double a = 0;
-		double b = 0;
+		Integer a = 0;
+		Integer b = 0;
 		boolean p = true;
 		boolean q = true;
 
@@ -22,16 +22,16 @@ public class Test { //add menu
 		while (p == true) {
 
 			System.out.println("Enter a value:");
-			a = scan.nextDouble();
+			a = scan.nextInteger();
 			System.out.println("Enter b value:");
-			b = scan.nextDouble();
+			b = scan.nextInteger();
 
 			cal.seteNum(a);
 			cal.seteNum2(b);
 
-			double area = cal.area();
-			double surface = cal.multiplication();
-			double power = cal.power();
+			Integer area = cal.area();
+			Integer surface = cal.multiplication();
+			Integer power = cal.power();
 
 			System.out.println("area value =" + area);
 			if (a < 0 || b < 0) {

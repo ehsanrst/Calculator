@@ -1,44 +1,44 @@
 //In the name of Allah
 public class Calculate {
 
-	private double eNum;
-	private double eNum2;
+	private Integer eNum;
+	private Integer eNum2;
 
-	// private double eNum3;// Not necessary!!!!
+	// private Integer eNum3;// Not necessary!!!!
 
 	public Calculate() {
 	}
 
-	public double geteNum() {
+	public Integer geteNum() {
 		return eNum;
 	}
 
-	public void seteNum(double eNum) {
+	public void seteNum(Integer eNum) {
 		this.eNum = eNum;
 	}
 
-	public double geteNum2() {
+	public Integer geteNum2() {
 		return eNum2;
 	}
 
-	public void seteNum2(double eNum2) {
+	public void seteNum2(Integer eNum2) {
 		this.eNum2 = eNum2;
 	}
 
-	public double sumation() {
+	public Integer sumation() {
 		return eNum + eNum2;
 	}
 
-	public double subtraction() {
+	public Integer subtraction() {
 		return eNum - eNum2;
 	}
 
-	public double multiplication() {
+	public Integer multiplication() {
 		return eNum * eNum2;
 	}
 
-	public double division() {
-		double eNum3 = 0;
+	public Integer division() {
+		Integer eNum3 = 0;
 		if (eNum2 == 0) {
 			System.out.println("Division is infinity");
 			eNum3 = 0.0;
@@ -48,21 +48,21 @@ public class Calculate {
 		return eNum3;
 	}
 
-	public double remaining() {
+	public Integer remaining() {
 		return eNum % eNum2;
 	}
 
-	public double area() {
+	public Integer area() {
 
-		double eNum3 = 2 * (eNum + eNum2);
+		Integer eNum3 = 2 * (eNum + eNum2);
 		if (eNum <= 0 || eNum2 <= 0) {
 			System.out.println("area Unknwon");
 		}
 		return eNum3;
 	}
 
-	public double power() {
-		double eNum3 = 0;
+	public Integer power() {
+		Integer eNum3 = 0;
 		if (eNum2 == 0) {
 			eNum3 = 1;
 		} else if (eNum2 > 0) {
