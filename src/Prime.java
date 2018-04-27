@@ -9,7 +9,7 @@ public class Prime {
 		Integer r = 0;
 		Scanner scan = new Scanner(System.in);
 
-		System.out.println("Enter an integer number:");
+		System.out.println("Enter an num:");
 		a = scan.nextInt();
 
 		if (a < 1) {
