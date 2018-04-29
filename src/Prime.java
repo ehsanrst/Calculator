@@ -9,22 +9,19 @@ public class Prime {
 		Integer r = 0;
 		Scanner scan = new Scanner(System.in);
 
-		System.out.println("Enter an num:");
-
 		System.out.println("Hey, Enter an num:");
 
 		a = scan.nextInt();
 
 		if (a < 1) {
-			System.out.println("Are you kidding me :D");
-		} else if (a == 1) {
-			System.out.println("Number is prime");
+
+			System.out.println("Are you jocking me :D");
 		}
 
 		if (isNumberPrime) {
-				System.out.println("Number is prime muggle");
+				System.out.println("Number is absolutely prime");
 			} else {
-				System.out.println("Number is not prime at all madblood");
+				System.out.println("Number is not prime at all");
 			}
 
 	}
