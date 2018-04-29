@@ -9,7 +9,7 @@ public class Prime {
 		Integer r = 0;
 		Scanner scan = new Scanner(System.in);
 
-		System.out.println("Hey, Enter an num:");
+		System.out.println("Hey, Enter an num Parsclick.net:");
 
 		a = scan.nextInt();
 
